@@ -7,10 +7,7 @@ CLASS y_not DEFINITION
 
 ENDCLASS.
 
-
-
 CLASS Y_NOT IMPLEMENTATION.
-
 
   METHOD yif_logical~evaluate.
     result = COND #( WHEN a = 0 AND b = 0 THEN 1
@@ -18,4 +15,5 @@ CLASS Y_NOT IMPLEMENTATION.
                      WHEN a = 1 AND b = 0 THEN 0
                      WHEN a = 1 AND b = 1 THEN 0 ).
   ENDMETHOD.
+
 ENDCLASS.

@@ -7,8 +7,6 @@ CLASS y_and DEFINITION
 
 ENDCLASS.
 
-
-
 CLASS y_and IMPLEMENTATION.
 
   METHOD yif_logical~evaluate.

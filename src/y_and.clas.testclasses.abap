@@ -10,6 +10,7 @@ CLASS tc_and DEFINITION FINAL FOR TESTING
     METHODS result_of_a0_and_b1_eq_0 FOR TESTING.
     METHODS result_of_a1_and_b0_eq_0 FOR TESTING.
     METHODS result_of_a1_and_b1_eq_1 FOR TESTING.
+
 ENDCLASS.
 
 
