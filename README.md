@@ -10,6 +10,7 @@ For the AND operation both of the terms has to be true.
 |  0  |  1  |   0    |
 |  1  |  0  |   0    |
 |  1  |  1  |   1    |
+[Source code](src/y_and.clas.abap)
 
 ## OR operation
 For the OR operation it is sufficient that one of the both terms is true.
@@ -20,6 +21,7 @@ For the OR operation it is sufficient that one of the both terms is true.
 |  0  |  1  |   1    |
 |  1  |  0  |   1    |
 |  1  |  1  |   1    |
+[Source code](src/y_or.clas.abap)
 
 ## NOT operation
 The NOT operation is unary, here just the A term is important and the result is the opposite of the incoming value
@@ -28,6 +30,7 @@ The NOT operation is unary, here just the A term is important and the result is 
 |:---:|:---:|:------:|
 |  0  |  0  |   1    |
 |  1  |  0  |   0    |
+[Source code](src/y_not.clas.abap)
 
 ## XOR operation
 XOR returns *true* only if the arguments are not equal. Or A or B has to bet true but not A and B.
