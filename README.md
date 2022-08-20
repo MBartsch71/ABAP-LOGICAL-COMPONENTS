@@ -10,7 +10,8 @@ For the AND operation both of the terms has to be true.
 |  0  |  1  |   0    |
 |  1  |  0  |   0    |
 |  1  |  1  |   1    |
-[Source code](src/y_and.clas.abap)
+
+*[Source code](src/y_and.clas.abap)*
 
 ## OR operation
 For the OR operation it is sufficient that one of the both terms is true.
@@ -21,7 +22,8 @@ For the OR operation it is sufficient that one of the both terms is true.
 |  0  |  1  |   1    |
 |  1  |  0  |   1    |
 |  1  |  1  |   1    |
-[Source code](src/y_or.clas.abap)
+
+*[Source code](src/y_or.clas.abap)*
 
 ## NOT operation
 The NOT operation is unary, here just the A term is important and the result is the opposite of the incoming value
@@ -30,7 +32,8 @@ The NOT operation is unary, here just the A term is important and the result is 
 |:---:|:---:|:------:|
 |  0  |  0  |   1    |
 |  1  |  0  |   0    |
-[Source code](src/y_not.clas.abap)
+
+*[Source code](src/y_not.clas.abap)*
 
 ## XOR operation
 XOR returns *true* only if the arguments are not equal. Or A or B has to bet true but not A and B.
@@ -42,6 +45,8 @@ XOR returns *true* only if the arguments are not equal. Or A or B has to bet tru
 |  1  |  0  |   1    |
 |  1  |  1  |   0    | 
 
+*[Source code](src/y_xor.clas.abap)*
+
 ## Implication operation
 The implication returns *false* only when A is true and B is false.
 
@@ -51,6 +56,8 @@ The implication returns *false* only when A is true and B is false.
 |  0  |  1  |   1    |
 |  1  |  0  |   0    |
 |  1  |  1  |   1    | 
+
+*[Source code](src/y_imp.clas.abap)*
 
 ## Equivalence operation
 This is the complement of XOR, it returns *true* only when A and B are equivalent.
@@ -62,6 +69,8 @@ This is the complement of XOR, it returns *true* only when A and B are equivalen
 |  1  |  0  |   0    |
 |  1  |  1  |   1    | 
 
+*[Source code](src/y_equiv.clas.abap)*
+
 ## NAND operation
 It's the complement to the AND operation
 
@@ -71,6 +80,8 @@ It's the complement to the AND operation
 |  0  |  1  |   1    |
 |  1  |  0  |   1    |
 |  1  |  1  |   0    |
+
+*[Source code](src/y_nand.clas.abap)*
 
 ## NOR operation
 It's the complement to the OR operation
@@ -82,6 +93,8 @@ It's the complement to the OR operation
 |  1  |  0  |   0    |
 |  1  |  1  |   0    | 
 
+*[Source code](src/y_nor.clas.abap)*
+
 ## NIMP operation
 This is the complement of the Implication operation
 
@@ -92,3 +105,4 @@ This is the complement of the Implication operation
 |  1  |  0  |   1    |
 |  1  |  1  |   0    | 
 
+*[Source code](src/y_nimp.clas.abap)*
