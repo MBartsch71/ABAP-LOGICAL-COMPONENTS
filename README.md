@@ -27,9 +27,7 @@ The NOT operation is unary, here just the A term is important and the result is 
 |  A  |  B  | Result |
 |:---:|:---:|:------:|
 |  0  |  0  |   1    |
-|  0  |  1  |   1    |
 |  1  |  0  |   0    |
-|  1  |  1  |   0    |
 
 ## XOR operation
 XOR returns *true* only if the arguments are not equal. Or A or B has to bet true but not A and B.
