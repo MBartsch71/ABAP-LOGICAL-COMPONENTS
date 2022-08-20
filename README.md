@@ -52,7 +52,7 @@ The implication returns *false* only when A is true and B is false.
 |  1  |  1  |   1    | 
 
 ## Equivalence operation
-this is the complement of XOR, it returns *true* only when A and B are equivalent.
+This is the complement of XOR, it returns *true* only when A and B are equivalent.
 
 |  A  |  B  | Result |
 |:---:|:---:|:------:|
@@ -60,4 +60,34 @@ this is the complement of XOR, it returns *true* only when A and B are equivalen
 |  0  |  1  |   0    |
 |  1  |  0  |   0    |
 |  1  |  1  |   1    | 
+
+## NAND operation
+It's the complement to the AND operation
+
+|  A  |  B  | Result |
+|:---:|:---:|:------:|
+|  0  |  0  |   1    |
+|  0  |  1  |   1    |
+|  1  |  0  |   1    |
+|  1  |  1  |   0    |
+
+## NOR operation
+It's the complement to the OR operation
+
+|  A  |  B  | Result |
+|:---:|:---:|:------:|
+|  0  |  0  |   1    |
+|  0  |  1  |   0    |
+|  1  |  0  |   0    |
+|  1  |  1  |   0    | 
+
+## NIMP operation
+This is the complement of the Implication operation
+
+|  A  |  B  | Result |
+|:---:|:---:|:------:|
+|  0  |  0  |   0    |
+|  0  |  1  |   0    |
+|  1  |  0  |   1    |
+|  1  |  1  |   0    | 
 
